@@ -1,0 +1,27 @@
+.green
+{
+  fill: #56C271;
+}
+
+#background
+{
+  width: 70%;
+  height: 70%;
+  x: 30%;
+  y: 30%;
+  opacity: .2;
+}
+
+#spinner
+{
+  x: 50%-25;
+  y: 50%-25;
+  width: 50;
+  height: 50;
+  fill: fb-white;
+}
+
+#text
+{
+  height: 100%;
+}

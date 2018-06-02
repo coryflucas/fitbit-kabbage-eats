@@ -1,0 +1,21 @@
+{
+  "fitbit": {
+    "appUUID": "5bc541fd-40d3-4a9a-aa9a-518635194390",
+    "appType": "app",
+    "appDisplayName": "KabbagEATS",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#4caf50",
+    "requestedPermissions": [
+      "access_internet"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "KabbagEATS"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+<svg class="background">
+  <image id="background" class="green" href="background.png" load="sync" />
+  
+  <use id="text" class="green" href="#mixed-text-left-top">
+    <set href="#header/text" attributeName="text-length" to="12" />
+    <set href="#copy/text" attributeName="text-length" to="1024" />
+  </use>
+  
+  <use id="spinner" href="#spinner" />
+  
+  <use id="btn-previous" class="green" href="#combo-button-upper-right">
+    <set href="combo-button-icon" attributeName="href" to="icons/btn_combo_prev.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="icons/btn_combo_prev_press.png"/>
+  </use>
+  
+  <use id="btn-next" class="green" href="#combo-button-lower-right">
+    <set href="combo-button-icon" attributeName="href" to="icons/btn_combo_next.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="icons/btn_combo_next_press.png"/>
+  </use>
+</svg>
